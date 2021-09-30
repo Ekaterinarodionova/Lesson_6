@@ -1,0 +1,138 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+/* ------------------------------ */
+
+.block {
+	background-color: brown;
+	border: 5px solid rgba(31, 70, 44, 0.698);
+	margin: 50px 0;
+}
+.dashed {
+	border: 5px dashed rgba(189, 55, 62, 0.746);
+	margin: 50px 0;
+}
+.inline {
+	display: inline-block;
+	background-color: rgba(95, 158, 160, 0.739);
+	border: 5px dotted rgba(31, 29, 29, 0.767);
+	margin-bottom: 50px;
+}
+.link {
+	display: inline-block;
+	border-bottom: 2px dashed rgba(24, 20, 20, 0.767);
+	margin-bottom: 20px;
+}
+.different {
+	border-top: 2px solid rgba(60, 60, 124, 0.589);
+	border-bottom: 3px dashed rgba(92, 89, 89, 0.541);
+	border-left: 3px dotted rgba(101, 112, 101, 0.911);
+	border-right: 10px double rgba(156, 135, 135, 0.883);
+	width: 200px;
+	margin: 50px auto;
+}
+.none {
+	border: 15px solid #000;
+	width: 150px;
+	background-color: rgba(153, 194, 204, 0.719);
+	border-top: none;
+	margin: 50px 0;
+}
+.blue {
+	background-color: blue;
+	outline: 10px solid black;
+	width: 200px;
+	margin-bottom: 20px;
+}
+.green {
+	background-color: green;
+	outline: 5px solid black;
+	width: 200px;
+	line-height: 20px;
+}
+.round {
+	background-color: rgba(224, 140, 220, 0.945);
+	width: 200px;
+	border-radius: 5% 95% 54% 46% / 76% 16% 84% 24%;
+	overflow: hidden;
+	margin: 50px auto;
+}
+.shadow {
+	background-color: rgba(106, 199, 241, 0.945);
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 50px auto;
+	padding: 20px;
+	box-shadow: 20px 20px 20px 20px rgba(106, 198, 241, 0.452);
+	opacity: 0.6;
+}
+.text {
+	display: inline-block;
+	border: 2px solid transparent;
+	box-shadow: 50px 10px 20px 20px rgba(8, 53, 75, 0.452);
+	margin-bottom: 50px;
+	background-color: rgba(8, 53, 75, 0.452);
+}
+.title {
+	display: block;
+	width: 200px;
+	margin: 0px auto;
+}
+.transparent {
+	opacity: 50%;
+	margin-bottom: 50px;
+}
+.border{
+	display: inline-block;
+	border: 5px solid red;
+}
